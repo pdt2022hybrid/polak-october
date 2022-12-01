@@ -1,0 +1,20 @@
+# ===================================
+#  Form Field Definitions
+# ===================================
+
+fields:
+    id:
+        label: ID
+        disabled: true
+    title:
+        label: title
+        span: auto
+        type: text
+    content:
+        label: content
+        span: auto
+        type: textarea
+    likes:
+        label: likes
+        span: auto
+        type: number

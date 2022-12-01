@@ -1,0 +1,17 @@
+# ===================================
+#  List Column Definitions
+# ===================================
+
+columns:
+    id:
+        label: MADAR IR
+        searchable: true
+    title:
+        label: title
+        searchable: true
+    content:
+        label: content
+        searchable: true
+    likes:
+        label: likes
+        searchable: true

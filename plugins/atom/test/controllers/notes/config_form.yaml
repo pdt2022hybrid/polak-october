@@ -1,0 +1,31 @@
+# ===================================
+#  Form Behavior Config
+# ===================================
+
+# Record name
+name: Note
+
+# Model Form Field configuration
+form: $/atom/test/models/note/fields.yaml
+
+# Model Class name
+modelClass: Atom\Test\Models\Note
+
+# Default redirect location
+defaultRedirect: atom/test/notes
+
+# Create page
+create:
+    title: backend::lang.form.create_title
+    redirect: atom/test/notes/update/:id
+    redirectClose: atom/test/notes
+
+# Update page
+update:
+    title: backend::lang.form.update_title
+    redirect: atom/test/notes
+    redirectClose: atom/test/notes
+
+# Preview page
+preview:
+    title: backend::lang.form.preview_title
