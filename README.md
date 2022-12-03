@@ -1,4 +1,1 @@
 # polak-october
-
-
-# testujem zmenu
